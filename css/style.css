@@ -1,0 +1,62 @@
+/*
+fonts cdn
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+/*
+fonts cdn
+*/
+
+
+
+body
+{
+    background-color: #0f466d;
+    padding-bottom: 50rem;
+}
+
+nav
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0e334b;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 0rem;
+}
+
+nav a
+{
+    color: rgb(250, 18, 254);
+    opacity: 80%;
+    font-family: 'Staatliches', cursive;
+    font-weight: 800;
+}
+nav a:hover
+{
+    opacity: 100%;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2019/05/01/58381390-4957-4436-a623-ad4995168215/proximos-jogos-indie-capa-inmost);
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10vw 0rem;
+}
+
+header h1
+{
+    color: #fff;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 2vw;
+    -webkit-text-stroke: 1.5px black;
+}
